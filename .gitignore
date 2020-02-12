@@ -1,0 +1,6 @@
+# Build results
+[Dd]ist/
+
+# VS cache/options directory
+.vs/ 
+.vscode/
