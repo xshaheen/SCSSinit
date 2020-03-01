@@ -1,0 +1,26 @@
+html {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: $fond-size;
+  line-height: $line-height;
+  min-height: 100%;
+}
+
+@media (min-width: $sm) {
+  html {
+    font-size: $fond-size + 1;
+  }
+}
+
+body {
+  color: $body-color;
+  background: $body-bg;
+  font-family: $font-family;
+  line-height: $line-height;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  margin: 0 0px 60px 0px;
+  padding: 0;
+  border: 0;
+}

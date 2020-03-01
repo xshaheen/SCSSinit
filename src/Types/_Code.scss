@@ -1,0 +1,25 @@
+code {
+  background: $gray-200;
+  padding: 0rem 0.5rem;
+  margin: 0 0.2rem;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  border: 1px solid $gray-200;
+  border-radius: 0.2rem;
+}
+
+pre {
+  background: $gray-200;
+  font-size: 0.86rem;
+  border-left: 0.2rem solid $primary-color;
+  overflow-y: hidden;
+  padding: 0.5rem;
+  margin: 1rem 0px;
+
+  & > code {
+    border: 0;
+    border-radius: 0;
+    display: block;
+    white-space: pre;
+  }
+}

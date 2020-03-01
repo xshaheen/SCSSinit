@@ -1,10 +1,10 @@
 // Layout breakpoints
 
 $xs: 0;
-$sm: 576px;
-$md: 768px;
-$lg: 992px;
-$xl: 1200px;
+$sm: 576px; // Larger than mobile
+$md: 768px; // Larger than tablet
+$lg: 992px; // Larger than desktop
+$xl: 1200px; // Larger than desktop HD
 
 // Main color system
 
@@ -29,17 +29,15 @@ $gray-800: #5a5c69;
 $gray-900: #3a3b45;
 $black: #000;
 
-// Body
-/* Settings for the `<body>` element. */
+// Body - Settings for the `<body>` element.
 
 $body-bg: $white !default;
-$body-color: #2d3239 !default;
+$body-color: #5a5c69 !default;
 
 // Typography
 
 $font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
   "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-
-$fond-size: 14px;
+$fond-size: 10px;
 $line-height: 1.5;

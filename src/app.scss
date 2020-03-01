@@ -14,8 +14,7 @@
   box-sizing: border-box;
 }
 
-@import "var";
-@import "type";
-@import "border";
-@import "site-wide";
-@import "utilities";
+@import "Variables";
+@import "Types/Types";
+
+@import "Utilities/Grid";
